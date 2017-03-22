@@ -1,0 +1,8 @@
+.tmp/*
+.settings/
+.editorconfig
+.project
+dist/*
+bower_components/
+node_modules/
+coverage/

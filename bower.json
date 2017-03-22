@@ -1,0 +1,26 @@
+{
+  "name": "AngularJsHelloWorldApp",
+  "description": "an angular hello world app from scratch",
+  "main": "gulpfile.js",
+  "authors": [
+    "Jibin Varghese <jibinkv1@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "app/index.html",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "jquery": "^3.1.1",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0",
+    "angular-mocks": "~1.4.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.2"
+  },
+  "resolutions": {
+    "angular": "~1.6.1"
+  }
+}

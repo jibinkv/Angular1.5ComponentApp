@@ -1,0 +1,89 @@
+<form role="form" name="vm.memberDetailsForm" novalidate method="post">
+	        <!-- Member Name -->
+        <div class="form-group">
+            <label class="control-label col-md-3" for="serviceName">First Name:</label>
+
+            <div ng-messages="vm.memberDetailsForm.FirstName.$error">
+									<span class="hint--top hint--always"                                     
+                                          ng-message="required"
+                                          ng-if="vm.memberDetailsForm.FirstName.$dirty"> Required
+                                    </span>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" required placeholder="FirstName"
+                       name="FirstName" id="FirstName" ng-model="vm.member.FirstName" 
+                       ng-readonly="vm.member"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3" for="LastName">Last Name:</label>
+
+            <div ng-messages="vm.memberDetailsForm.LastName.$error">
+									<span class="hint--top hint--always"                                     
+                                          ng-message="required"
+                                          ng-if="vm.memberDetailsForm.LastName.$dirty"> Required
+                                    </span>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" required placeholder="LastName"
+                       name="LastName" id="LastName" ng-model="vm.member.LastName" 
+                       ng-readonly="vm.member"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3" for="Address">Address:</label>
+
+            <div ng-messages="vm.memberDetailsForm.Address.$error">
+									<span class="hint--top hint--always"                                     
+                                          ng-message="required"
+                                          ng-if="vm.memberDetailsForm.Address.$dirty"> Required
+                                    </span>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" required placeholder="Address"
+                       name="Address" id="Address" ng-model="vm.member.Address" 
+                       ng-readonly="vm.member"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3" for="EmailAddress">Address:</label>
+
+            <div ng-messages="vm.memberDetailsForm.EmailAddress.$error">
+									<span class="hint--top hint--always"                                     
+                                          ng-message="required"
+                                          ng-if="vm.memberDetailsForm.EmailAddress.$dirty"> Required
+                                    </span>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" required placeholder="EmailAddress"
+                       name="EmailAddress" id="EmailAddress" ng-model="vm.member.EmailAddress" 
+                       ng-readonly="vm.member"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3" for="Phone">Phone:</label>
+
+            <div ng-messages="vm.memberDetailsForm.Phone.$error">
+									<span class="hint--top hint--always"                                     
+                                          ng-message="required"
+                                          ng-if="vm.memberDetailsForm.Phone.$dirty"> Required
+                                    </span>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" required placeholder="Phone"
+                       name="Phone" id="Phone" ng-model="vm.member.Phone" 
+                       ng-readonly="vm.member"/>
+            </div>
+        </div>
+
+        <div class="form-group text-right padding padding-lg-right" ng-if="!vm.member">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" ng-click=""
+                        class="btn btn-default">Update Member</button>
+            </div>
+        </div>
+</form>
