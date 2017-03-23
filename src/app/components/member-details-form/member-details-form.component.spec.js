@@ -4,7 +4,7 @@
 	describe('Testing member-deatails-form Component', function (){
 		var element, $scope, $rootScope, $compile;
 
-		beforeEach(module('AngularJsHelloWorldApp'));
+		beforeEach(module('Angular1.5ComponentApp'));
 		
 		beforeEach(inject(function(_$rootScope_, _$compile_){
 			$rootScope = _$rootScope_;

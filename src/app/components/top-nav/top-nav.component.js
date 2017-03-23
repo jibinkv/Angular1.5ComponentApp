@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('AngularJsHelloWorldApp')
+		.module('Angular1.5ComponentApp')
 		.component('topNav', {
 			templateUrl: 'app/components/top-nav/top-nav.html'
 		});

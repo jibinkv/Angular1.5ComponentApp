@@ -1,7 +1,7 @@
 (function (){
 	'use strict';
 
-	 angular.module('AngularJsHelloWorldApp')
+	 angular.module('Angular1.5ComponentApp')
 	 	.controller('MemberController', MemberController);
 
 	 function MemberController(memberDetailsService){

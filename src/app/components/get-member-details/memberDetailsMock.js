@@ -21,7 +21,7 @@
 	  };
 
 
-	angular.module('AngularJsHelloWorldApp')
+	angular.module('Angular1.5ComponentApp')
 	.constant('memberDetailsMock', {
 		'failure': {
 			        'Acknowledgement': {

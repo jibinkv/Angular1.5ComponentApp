@@ -3,11 +3,11 @@
 
 	describe('Testing MemberController', function(){
 
-		beforeEach(module('AngularJsHelloWorldApp'));
+		beforeEach(module('Angular1.5ComponentApp'));
 
 		var $rootScope, $scope, $controller, memberDetailsService;
 
-		beforeEach(module('AngularJsHelloWorldApp'));
+		beforeEach(module('Angular1.5ComponentApp'));
 
 		beforeEach(inject(function(_$rootScope_, _$controller_, _memberDetailsService_){
 			memberDetailsService = _memberDetailsService_;

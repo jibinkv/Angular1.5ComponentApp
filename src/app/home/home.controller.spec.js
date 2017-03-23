@@ -3,7 +3,7 @@
 
 	describe('Testing HomeController', function(){
 		var $rootScope, $scope, $controller;
-		beforeEach(module('AngularJsHelloWorldApp'));
+		beforeEach(module('Angular1.5ComponentApp'));
 
 		beforeEach(inject(function(_$rootScope_, _$controller_){
 			$rootScope = _$rootScope_;

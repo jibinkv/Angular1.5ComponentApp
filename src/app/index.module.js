@@ -1,6 +1,6 @@
 (function(){
 	'use strict';
 
-	angular.module('AngularJsHelloWorldApp', ['ngRoute', 'ngAnimate']);
+	angular.module('Angular1.5ComponentApp', ['ngRoute', 'ngAnimate']);
 
 })();

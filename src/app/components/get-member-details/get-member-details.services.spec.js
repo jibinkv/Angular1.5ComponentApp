@@ -4,7 +4,7 @@
 	describe('Testing getMemberDetails Service', function (){
 		var memberDetailsService, memberDetailsMock;
 
-		beforeEach(module('AngularJsHelloWorldApp'));
+		beforeEach(module('Angular1.5ComponentApp'));
 		
 		beforeEach(inject(function(_memberDetailsService_, _memberDetailsMock_){
 			memberDetailsMock = _memberDetailsMock_;

@@ -1,6 +1,6 @@
 # AngularJs1.5ComponentApp
 
-AngularJsHelloWorldApp is a HelloWord App demonstrate Angular 1.5 components, components lifecycle hooks, TDD. It is an automated angularJs single page app setup using bower and gulp. Build, unit test (Karma) have been automated.  
+Angular1.5ComponentApp is a HelloWord App demonstrate Angular 1.5 components, components lifecycle hooks, TDD. It is an automated angularJs single page app setup using bower and gulp. Build, unit test (Karma) have been automated.  
 
 * * *
 

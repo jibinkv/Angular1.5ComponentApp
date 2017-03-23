@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('AngularJsHelloWorldApp')
+		.module('Angular1.5ComponentApp')
 		.factory('memberDetailsService', memberDetailsService);
 
 	function memberDetailsService(memberDetailsMock){

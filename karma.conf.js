@@ -42,7 +42,7 @@ module.exports = function(config) {
 
     ngHtml2JsPreprocessor: {
       stripPrefix: conf.paths.src + '/',
-      moduleName: 'AngularJsHelloWorldApp'
+      moduleName: 'Angular1.5ComponentApp'
     },
 
     logLevel: 'WARN',
